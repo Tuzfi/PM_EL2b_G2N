@@ -117,8 +117,10 @@ public abstract class Ingresso {
 	 * @return cupom descritivo do ingresso
 	 */
 	@Override 
-	public String toString() {
-		//TODO
-		return "";
+		public String toString(Ingresso(), valorIngresso()) {
+			System.out.println("______________________________");
+			System.out.println("Sessão: ",Ingresso.);
+			System.out.println("______________________________");
+			return "";
 	}
 }

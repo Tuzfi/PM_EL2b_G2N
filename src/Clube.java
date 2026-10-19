@@ -1,4 +1,5 @@
 import java.time.LocalDateTime;
+import java.util.LinkedList;
 
 /** 
  * MIT License
@@ -50,7 +51,9 @@ public class Clube extends Ingresso {
 	 * @param clube categoria do clube utilizada para definir os descontos
 	 */
 	public Clube(String filme, LocalDateTime sessao, EClube clube) {
-		//TODO
+		this.filme = filme;
+		this.sessao = sessao;
+		this.clube = clube;
 	}
 
 	/**
@@ -59,7 +62,7 @@ public class Clube extends Ingresso {
 	 */
 	@Override 
 	public double valorIngresso() {
-		//TODO
+		valor = 
 		return  0;
 	}
 }
